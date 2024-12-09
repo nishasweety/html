@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+    <style>
+        body{
+            
+            background-color: dimgray;
+            display: flex;
+            align-content: center;
 
+        }
+        form{
+            border: 1px solid;
+            background-color:
+        }
+        span{
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <span>
+        <label for=name>name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter name"><br>
+        <label for="lastname">lastname</label><br>
+        <input type="lastname" lastname="lastname" placeholder="lastname"><br>
+        <label for="gender">gender</label><br>
+        <select id="option" name="gender">
+            
+            <option value="option1">male</option>
+            <option value="option1">female</option>
+            <option value="option1">Other</option>
+            
+        </select><br><br>
+       
+        <button>submit</button>
+    </span>
+    </form>
+</body>
+</html>
